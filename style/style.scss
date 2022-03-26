@@ -1,3 +1,38 @@
 body{
-    background-color: red;
+    background-color: rgba(248, 147, 147, 0.486);
+
+}
+
+
+
+    @mixin test($size) {
+        border: $size solid gold;
+        font-size: $size;
+        padding: $size;
+    }
+    
+
+
+form div {
+    
+    
+
+
+    &:nth-child(1) {
+        // border: 2px dashed rgb(4, 124, 0);
+        @include test(10px);
+    }
+
+    &:nth-child(2) {
+        // border: 2px dashed rgb(1, 1, 231);
+        @include test(1em);
+    }
+
+    &:nth-child(3) {
+        @include test(2em);
+        // border: 2px dashed black;
+    }
+
+
+
 }
