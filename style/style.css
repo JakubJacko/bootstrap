@@ -2,18 +2,52 @@ body {
   background-color: rgba(248, 147, 147, 0.486);
 }
 
+div {
+  color: green;
+  max-width: 50%;
+  text-align: center;
+}
+
+div .col {
+  padding-top: 3rem !important;
+  margin: 2rem 0 -3rem 3rem;
+  position: relative;
+  left: 12rem;
+  text-align: center;
+}
+
+div div:nth-child(1) {
+  border: 5.4px solid #0066ff;
+  font-size: 18px;
+  padding: 27px;
+}
+div div:nth-child(2) {
+  border: 4.2px solid #0066ff;
+  font-size: 14px;
+  padding: 21px;
+}
+
+label .form-label {
+  margin-top: 10px;
+}
+
 form div:nth-child(1) {
-  border: 10px solid gold;
-  font-size: 10px;
-  padding: 10px;
+  border: 6px solid #0066ff;
+  font-size: 20px;
+  padding: 30px;
 }
 form div:nth-child(2) {
-  border: 1em solid gold;
-  font-size: 1em;
-  padding: 1em;
+  border: 4.5px solid #0066ff;
+  font-size: 15px;
+  padding: 22.5px;
 }
 form div:nth-child(3) {
-  border: 2em solid gold;
-  font-size: 2em;
-  padding: 2em;
+  border: 3px solid #0066ff;
+  font-size: 10px;
+  padding: 15px;
+}
+form div:nth-child(4) {
+  border: 9px solid #0066ff;
+  font-size: 30px;
+  padding: 45px;
 }/*# sourceMappingURL=style.css.map */
